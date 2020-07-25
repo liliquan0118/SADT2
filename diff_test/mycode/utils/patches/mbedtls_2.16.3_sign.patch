@@ -1,0 +1,17 @@
+--- a/library/x509_crt.c	2020-03-19 21:26:13.109421716 +0800
++++ b/library/x509_crt.c	2020-03-27 23:18:16.277953045 +0800
+@@ -2071,9 +2071,13 @@
+ #endif
+ 
+         signature_is_good = ret == 0;
++#ifndef FUZZER_DISABLE_SIGNCHECK
+         if( top && ! signature_is_good )
+             continue;
+-
++#endif
++#ifdef FUZZER_DISABLE_SIGNCHECK
++        signature_is_good = 1;
++#endif
+         /* optional time check */
+         if( mbedtls_x509_time_is_past( &parent->valid_to ) ||
+             mbedtls_x509_time_is_future( &parent->valid_from ) )

@@ -1,0 +1,90 @@
+--- a/wolfcrypt/src/asn.c	2020-03-28 14:08:56.208576627 +0800
++++ b/wolfcrypt/src/asn.c	2020-03-28 14:15:19.125208219 +0800
+@@ -147,8 +147,8 @@
+     #endif
+ #endif
+ #ifdef WOLFSSL_RENESAS_TSIP_TLS
+-WOLFSSL_LOCAL void tsip_inform_key_position(const word32 key_n_start, 
+-                const word32 key_n_len, const word32 key_e_start, 
++WOLFSSL_LOCAL void tsip_inform_key_position(const word32 key_n_start,
++                const word32 key_n_len, const word32 key_e_start,
+                 const word32 key_e_len);
+ WOLFSSL_LOCAL int tsip_tls_CertVerify(const byte *cert, word32 certSz,
+                         const byte *signature, word32 sigSz,
+@@ -4010,9 +4010,9 @@
+ /* This function is to retrieve key position information in a cert.*
+  * The information will be used to call TSIP TLS-linked API for    *
+  * certificate verification.                                       */
+-static int RsaPublicKeyDecodeRawIndex(const byte* input, word32* inOutIdx, 
+-                                      word32 inSz, word32* key_n, 
+-                                      word32* key_n_len, word32* key_e, 
++static int RsaPublicKeyDecodeRawIndex(const byte* input, word32* inOutIdx,
++                                      word32 inSz, word32* key_n,
++                                      word32* key_n_len, word32* key_e,
+                                       word32* key_e_len)
+ {
+ 
+@@ -4534,7 +4534,7 @@
+ #ifdef WOLFSSL_RENESAS_TSIP_TLS
+     if (cert->tsip_encRsaKeyIdx != NULL)
+         XFREE(cert->tsip_encRsaKeyIdx, cert->heap, DYNAMIC_TYPE_RSA);
+-#endif        
++#endif
+ #ifndef NO_CERTS
+     FreeSignatureCtx(&cert->sigCtx);
+ #endif
+@@ -6581,14 +6581,14 @@
+                      #ifdef WOLFSSL_RENESAS_TSIP_TLS
+                         if (rsaKeyIdx != NULL)
+                         {
+-                            ret = tsip_tls_CertVerify(buf, bufSz, sigCtx->plain, 
++                            ret = tsip_tls_CertVerify(buf, bufSz, sigCtx->plain,
+                                 sigSz,
+                                 sigCtx->pubkey_n_start - sigCtx->certBegin,
+                                 sigCtx->pubkey_n_len - 1,
+                                 sigCtx->pubkey_e_start - sigCtx->certBegin,
+                                 sigCtx->pubkey_e_len - 1,
+                                 rsaKeyIdx);
+-                                
++
+                             if (ret == 0){
+                                 sigCtx->verifyByTSIP = 1;
+                                 ret = 0;
+@@ -8748,10 +8748,10 @@
+     /* TSIP can only handle 2048 bits(256 byte) key.  */
+     if (cert->ca && tsip_checkCA(cert->ca->cm_idx) != 0 &&
+         cert->sigCtx.pubkey_n_len == 256) {
+-        
++
+         /* assign memory to encrypted tsip Rsa key index */
+         if (!cert->tsip_encRsaKeyIdx)
+-            cert->tsip_encRsaKeyIdx = 
++            cert->tsip_encRsaKeyIdx =
+                             (byte*)XMALLOC(TSIP_TLS_ENCPUBKEY_SZ_BY_CERTVRFY,
+                              cert->heap, DYNAMIC_TYPE_RSA);
+         if (cert->tsip_encRsaKeyIdx == NULL)
+@@ -8777,6 +8777,7 @@
+             if (verify == VERIFY || verify == VERIFY_OCSP ||
+                                                  verify == VERIFY_SKIP_DATE) {
+                 /* try to confirm/verify signature */
++#ifndef FUZZER_DISABLE_SIGNCHECK
+                 if ((ret = ConfirmSignature(&cert->sigCtx,
+                         cert->source + cert->certBegin,
+                         cert->sigIndex - cert->certBegin,
+@@ -8789,6 +8790,7 @@
+                     }
+                     return ret;
+                 }
++#endif
+             }
+         #ifndef IGNORE_NAME_CONSTRAINTS
+             if (verify == VERIFY || verify == VERIFY_OCSP ||
+@@ -15203,7 +15205,7 @@
+             resp->response, resp->responseSz,
+             cert.publicKey, cert.pubKeySize, cert.keyOID,
+             resp->sig, resp->sigSz, resp->sigOID, NULL);
+-            
++
+         FreeDecodedCert(&cert);
+ 
+         if (ret != 0) {

@@ -1,0 +1,35 @@
+--- b/nss/lib/certhigh/certvfy.c	2020-07-24 10:07:12.065425263 +0800
++++ a/nss/lib/certhigh/certvfy.c	2020-07-24 10:07:19.927806226 +0800
+@@ -19,7 +19,7 @@
+ #else
+ #include "nss.h"
+ #endif /* NSS_DISABLE_LIBPKIX */
+-
++#define FUZZER_DISABLE_SIGNCHECK
+ #include "nsspki.h"
+ #include "pkitm.h"
+ #include "pkim.h"
+@@ -752,7 +752,9 @@ cert_VerifyCertChainOld(CERTCertDBHandle
+ 
+             if (rv != SECSuccess) {
+                 if (sigerror) {
++#ifndef FUZZER_DISABLE_SIGNCHECK
+                     *sigerror = PR_TRUE;
++#endif
+                 }
+                 if (PORT_GetError() == SEC_ERROR_EXPIRED_CERTIFICATE) {
+                     PORT_SetError(SEC_ERROR_EXPIRED_ISSUER_CERTIFICATE);
+@@ -760,9 +762,12 @@ cert_VerifyCertChainOld(CERTCertDBHandle
+                 } else {
+                     if (PORT_GetError() !=
+                         SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED) {
++#ifndef FUZZER_DISABLE_SIGNCHECK
+                         PORT_SetError(SEC_ERROR_BAD_SIGNATURE);
++#endif
+                     }
+-                    LOG_ERROR_OR_EXIT(log, subjectCert, count, 0);
++                    else
++                        LOG_ERROR_OR_EXIT(log, subjectCert, count, 0);
+                 }
+             }
+         }

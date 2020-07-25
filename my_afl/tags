@@ -1,0 +1,313 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/0afef66/
+AFL_MAIN	/tmp/vo67PZl/7.c	/^#define AFL_MAIN$/;"	d	file:
+CASE_PREFIX	/tmp/vo67PZl/7.c	/^#  define CASE_PREFIX /;"	d	file:
+CHK_FORMAT	/tmp/vo67PZl/7.c	/^#define CHK_FORMAT(/;"	d	file:
+DF	/tmp/vo67PZl/7.c	/^static u8* DF(double val) {$/;"	f	typeref:typename:u8 *	file:
+DI	/tmp/vo67PZl/7.c	/^static u8* DI(u64 val) {$/;"	f	typeref:typename:u8 *	file:
+DMS	/tmp/vo67PZl/7.c	/^static u8* DMS(u64 val) {$/;"	f	typeref:typename:u8 *	file:
+DTD	/tmp/vo67PZl/7.c	/^static u8* DTD(u64 cur_ms, u64 event_ms) {$/;"	f	typeref:typename:u8 *	file:
+EFF_ALEN	/tmp/vo67PZl/7.c	/^#define EFF_ALEN(/;"	d	file:
+EFF_APOS	/tmp/vo67PZl/7.c	/^#define EFF_APOS(/;"	d	file:
+EFF_REM	/tmp/vo67PZl/7.c	/^#define EFF_REM(/;"	d	file:
+EFF_SPAN_ALEN	/tmp/vo67PZl/7.c	/^#define EFF_SPAN_ALEN(/;"	d	file:
+EXP_ST	/tmp/vo67PZl/7.c	/^#  define EXP_ST /;"	d	file:
+EXP_ST	/tmp/vo67PZl/7.c	/^#  define EXP_ST$/;"	d	file:
+FAULT_CRASH	/tmp/vo67PZl/7.c	/^    \/* 02 *\/ FAULT_CRASH,$/;"	e	enum:__anon5e1b62d30303	file:
+FAULT_ERROR	/tmp/vo67PZl/7.c	/^    \/* 03 *\/ FAULT_ERROR,$/;"	e	enum:__anon5e1b62d30303	file:
+FAULT_NOBITS	/tmp/vo67PZl/7.c	/^    \/* 05 *\/ FAULT_NOBITS$/;"	e	enum:__anon5e1b62d30303	file:
+FAULT_NOINST	/tmp/vo67PZl/7.c	/^    \/* 04 *\/ FAULT_NOINST,$/;"	e	enum:__anon5e1b62d30303	file:
+FAULT_NONE	/tmp/vo67PZl/7.c	/^    \/* 00 *\/ FAULT_NONE,$/;"	e	enum:__anon5e1b62d30303	file:
+FAULT_TMOUT	/tmp/vo67PZl/7.c	/^    \/* 01 *\/ FAULT_TMOUT,$/;"	e	enum:__anon5e1b62d30303	file:
+FF	/tmp/vo67PZl/7.c	/^#define FF(/;"	d	file:
+FLIP_BIT	/tmp/vo67PZl/7.c	/^#define FLIP_BIT(/;"	d	file:
+HAVE_AFFINITY	/tmp/vo67PZl/7.c	/^#  define HAVE_AFFINITY /;"	d	file:
+MAXSIZE	/tmp/vo67PZl/7.c	/^#define MAXSIZE /;"	d	file:
+MESSAGES_TO_STDOUT	/tmp/vo67PZl/7.c	/^#define MESSAGES_TO_STDOUT$/;"	d	file:
+SP10	/tmp/vo67PZl/7.c	/^#define SP10 /;"	d	file:
+SP20	/tmp/vo67PZl/7.c	/^#define SP20 /;"	d	file:
+SP5	/tmp/vo67PZl/7.c	/^#define SP5 /;"	d	file:
+STAGE_ARITH16	/tmp/vo67PZl/7.c	/^    \/* 07 *\/ STAGE_ARITH16,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_ARITH32	/tmp/vo67PZl/7.c	/^    \/* 08 *\/ STAGE_ARITH32,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_ARITH8	/tmp/vo67PZl/7.c	/^    \/* 06 *\/ STAGE_ARITH8,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_EXTRAS_AO	/tmp/vo67PZl/7.c	/^    \/* 14 *\/ STAGE_EXTRAS_AO,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_EXTRAS_UI	/tmp/vo67PZl/7.c	/^    \/* 13 *\/ STAGE_EXTRAS_UI,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_EXTRAS_UO	/tmp/vo67PZl/7.c	/^    \/* 12 *\/ STAGE_EXTRAS_UO,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_FLIP1	/tmp/vo67PZl/7.c	/^    \/* 00 *\/ STAGE_FLIP1,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_FLIP16	/tmp/vo67PZl/7.c	/^    \/* 04 *\/ STAGE_FLIP16,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_FLIP2	/tmp/vo67PZl/7.c	/^    \/* 01 *\/ STAGE_FLIP2,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_FLIP32	/tmp/vo67PZl/7.c	/^    \/* 05 *\/ STAGE_FLIP32,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_FLIP4	/tmp/vo67PZl/7.c	/^    \/* 02 *\/ STAGE_FLIP4,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_FLIP8	/tmp/vo67PZl/7.c	/^    \/* 03 *\/ STAGE_FLIP8,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_HAVOC	/tmp/vo67PZl/7.c	/^    \/* 15 *\/ STAGE_HAVOC,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_INTEREST16	/tmp/vo67PZl/7.c	/^    \/* 10 *\/ STAGE_INTEREST16,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_INTEREST32	/tmp/vo67PZl/7.c	/^    \/* 11 *\/ STAGE_INTEREST32,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_INTEREST8	/tmp/vo67PZl/7.c	/^    \/* 09 *\/ STAGE_INTEREST8,$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_SPLICE	/tmp/vo67PZl/7.c	/^    \/* 16 *\/ STAGE_SPLICE$/;"	e	enum:__anon5e1b62d30103	file:
+STAGE_VAL_BE	/tmp/vo67PZl/7.c	/^    \/* 02 *\/ STAGE_VAL_BE$/;"	e	enum:__anon5e1b62d30203	file:
+STAGE_VAL_LE	/tmp/vo67PZl/7.c	/^    \/* 01 *\/ STAGE_VAL_LE,$/;"	e	enum:__anon5e1b62d30203	file:
+STAGE_VAL_NONE	/tmp/vo67PZl/7.c	/^    \/* 00 *\/ STAGE_VAL_NONE,$/;"	e	enum:__anon5e1b62d30203	file:
+UR	/tmp/vo67PZl/7.c	/^static inline u32 UR(u32 limit) {$/;"	f	typeref:typename:u32	file:
+_FILE_OFFSET_BITS	/tmp/vo67PZl/7.c	/^#define _FILE_OFFSET_BITS /;"	d	file:
+_GNU_SOURCE	/tmp/vo67PZl/7.c	/^#define _GNU_SOURCE$/;"	d	file:
+__anon5e1b62d30103	/tmp/vo67PZl/7.c	/^enum {$/;"	g	file:
+__anon5e1b62d30203	/tmp/vo67PZl/7.c	/^enum {$/;"	g	file:
+__anon5e1b62d30303	/tmp/vo67PZl/7.c	/^enum {$/;"	g	file:
+a_extras	/tmp/vo67PZl/7.c	/^static struct extra_data* a_extras;   \/* Automatically selected extras    *\/$/;"	v	typeref:struct:extra_data *	file:
+a_extras_cnt	/tmp/vo67PZl/7.c	/^static u32 a_extras_cnt;              \/* Total number of tokens available *\/$/;"	v	typeref:typename:u32	file:
+add_to_queue	/tmp/vo67PZl/7.c	/^static void add_to_queue(u8* fname, u32 len, u8 passed_det) {$/;"	f	typeref:typename:void	file:
+auto_changed	/tmp/vo67PZl/7.c	/^       auto_changed,              \/* Auto-generated tokens changed?   *\/$/;"	v	typeref:typename:EXP_ST u8
+bH10	/tmp/vo67PZl/7.c	/^#define bH10 /;"	d	file:
+bH2	/tmp/vo67PZl/7.c	/^#define bH2 /;"	d	file:
+bH20	/tmp/vo67PZl/7.c	/^#define bH20 /;"	d	file:
+bH30	/tmp/vo67PZl/7.c	/^#define bH30 /;"	d	file:
+bH5	/tmp/vo67PZl/7.c	/^#define bH5 /;"	d	file:
+bSTG	/tmp/vo67PZl/7.c	/^#define bSTG /;"	d	file:
+bind_to_free_cpu	/tmp/vo67PZl/7.c	/^static void bind_to_free_cpu(void) {$/;"	f	typeref:typename:void	file:
+bitmap_changed	/tmp/vo67PZl/7.c	/^       bitmap_changed = 1,        \/* Time to update bitmap?           *\/$/;"	v	typeref:typename:EXP_ST u8
+bitmap_size	/tmp/vo67PZl/7.c	/^    u32 bitmap_size,                    \/* Number of bits set in bitmap     *\/$/;"	m	struct:queue_entry	typeref:typename:u32	file:
+blocks_eff_select	/tmp/vo67PZl/7.c	/^       blocks_eff_select;         \/* Blocks selected as fuzzable      *\/$/;"	v	typeref:typename:EXP_ST u64
+blocks_eff_total	/tmp/vo67PZl/7.c	/^       blocks_eff_total,          \/* Blocks subject to effector maps  *\/$/;"	v	typeref:typename:EXP_ST u64
+bytes_trim_in	/tmp/vo67PZl/7.c	/^       bytes_trim_in,             \/* Bytes coming into the trimmer    *\/$/;"	v	typeref:typename:EXP_ST u64
+bytes_trim_out	/tmp/vo67PZl/7.c	/^       bytes_trim_out,            \/* Bytes coming outa the trimmer    *\/$/;"	v	typeref:typename:EXP_ST u64
+cal_failed	/tmp/vo67PZl/7.c	/^    u8  cal_failed,                     \/* Calibration failed?              *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+calculate_score	/tmp/vo67PZl/7.c	/^static u32 calculate_score(struct queue_entry* q) {$/;"	f	typeref:typename:u32	file:
+calibrate_case	/tmp/vo67PZl/7.c	/^static u8 calibrate_case(char** argv, struct queue_entry* q, u8* use_mem,$/;"	f	typeref:typename:u8	file:
+check_asan_opts	/tmp/vo67PZl/7.c	/^static void check_asan_opts(void) {$/;"	f	typeref:typename:void	file:
+check_binary	/tmp/vo67PZl/7.c	/^EXP_ST void check_binary(u8* fname) {$/;"	f	typeref:typename:EXP_ST void
+check_cpu_governor	/tmp/vo67PZl/7.c	/^static void check_cpu_governor(void) {$/;"	f	typeref:typename:void	file:
+check_crash_handling	/tmp/vo67PZl/7.c	/^static void check_crash_handling(void) {$/;"	f	typeref:typename:void	file:
+check_if_tty	/tmp/vo67PZl/7.c	/^static void check_if_tty(void) {$/;"	f	typeref:typename:void	file:
+check_map_coverage	/tmp/vo67PZl/7.c	/^static void check_map_coverage(void) {$/;"	f	typeref:typename:void	file:
+check_term_size	/tmp/vo67PZl/7.c	/^static void check_term_size(void) {$/;"	f	typeref:typename:void	file:
+child_pid	/tmp/vo67PZl/7.c	/^           child_pid = -1,            \/* PID of the fuzzed program        *\/$/;"	v	typeref:typename:s32	file:
+child_timed_out	/tmp/vo67PZl/7.c	/^                child_timed_out;   \/* Traced process timed out?        *\/$/;"	v	typeref:typename:volatile u8	file:
+choose_block_len	/tmp/vo67PZl/7.c	/^static u32 choose_block_len(u32 limit) {$/;"	f	typeref:typename:u32	file:
+classify_counts	/tmp/vo67PZl/7.c	/^static inline void classify_counts(u32* mem) {$/;"	f	typeref:typename:void	file:
+classify_counts	/tmp/vo67PZl/7.c	/^static inline void classify_counts(u64* mem) {$/;"	f	typeref:typename:void	file:
+clear_screen	/tmp/vo67PZl/7.c	/^                clear_screen = 1,  \/* Window resized?                  *\/$/;"	v	typeref:typename:volatile u8	file:
+common_fuzz_stuff	/tmp/vo67PZl/7.c	/^EXP_ST u8 common_fuzz_stuff(char** argv, u8* out_buf, u32 len) {$/;"	f	typeref:typename:EXP_ST u8
+compare_extras_len	/tmp/vo67PZl/7.c	/^static int compare_extras_len(const void* p1, const void* p2) {$/;"	f	typeref:typename:int	file:
+compare_extras_use_d	/tmp/vo67PZl/7.c	/^static int compare_extras_use_d(const void* p1, const void* p2) {$/;"	f	typeref:typename:int	file:
+could_be_arith	/tmp/vo67PZl/7.c	/^static u8 could_be_arith(u32 old_val, u32 new_val, u8 blen) {$/;"	f	typeref:typename:u8	file:
+could_be_bitflip	/tmp/vo67PZl/7.c	/^static u8 could_be_bitflip(u32 xor_val) {$/;"	f	typeref:typename:u8	file:
+could_be_interest	/tmp/vo67PZl/7.c	/^static u8 could_be_interest(u32 old_val, u32 new_val, u8 blen, u8 check_le) {$/;"	f	typeref:typename:u8	file:
+count_bits	/tmp/vo67PZl/7.c	/^static u32 count_bits(u8* mem) {$/;"	f	typeref:typename:u32	file:
+count_bytes	/tmp/vo67PZl/7.c	/^static u32 count_bytes(u8* mem) {$/;"	f	typeref:typename:u32	file:
+count_class_lookup16	/tmp/vo67PZl/7.c	/^static u16 count_class_lookup16[65536];$/;"	v	typeref:typename:u16[65536]	file:
+count_class_lookup8	/tmp/vo67PZl/7.c	/^static const u8 count_class_lookup8[256] = {$/;"	v	typeref:typename:const u8[256]	file:
+count_non_255_bytes	/tmp/vo67PZl/7.c	/^static u32 count_non_255_bytes(u8* mem) {$/;"	f	typeref:typename:u32	file:
+cpu_aff	/tmp/vo67PZl/7.c	/^static s32 cpu_aff = -1;       	      \/* Selected CPU core                *\/$/;"	v	typeref:typename:s32	file:
+cpu_core_count	/tmp/vo67PZl/7.c	/^static s32 cpu_core_count;            \/* CPU core count                   *\/$/;"	v	typeref:typename:s32	file:
+crash_mode	/tmp/vo67PZl/7.c	/^       crash_mode,                \/* Crash mode! Yeah!                *\/$/;"	v	typeref:typename:EXP_ST u8
+cull_queue	/tmp/vo67PZl/7.c	/^static void cull_queue(void) {$/;"	f	typeref:typename:void	file:
+cur_depth	/tmp/vo67PZl/7.c	/^       cur_depth,                 \/* Current path depth               *\/$/;"	v	typeref:typename:EXP_ST u32
+cur_skipped_paths	/tmp/vo67PZl/7.c	/^       cur_skipped_paths,         \/* Abandoned inputs in cur cycle    *\/$/;"	v	typeref:typename:EXP_ST u32
+current_entry	/tmp/vo67PZl/7.c	/^       current_entry,             \/* Current queue entry ID           *\/$/;"	v	typeref:typename:EXP_ST u32
+cycles_wo_finds	/tmp/vo67PZl/7.c	/^       cycles_wo_finds,           \/* Cycles without any new paths     *\/$/;"	v	typeref:typename:EXP_ST u64
+data	/tmp/vo67PZl/7.c	/^    u8* data;                           \/* Dictionary token data            *\/$/;"	m	struct:extra_data	typeref:typename:u8 *	file:
+deferred_mode	/tmp/vo67PZl/7.c	/^       deferred_mode,             \/* Deferred forkserver mode?        *\/$/;"	v	typeref:typename:EXP_ST u8
+delete_files	/tmp/vo67PZl/7.c	/^static u8 delete_files(u8* path, u8* prefix) {$/;"	f	typeref:typename:u8	file:
+depth	/tmp/vo67PZl/7.c	/^        depth;                          \/* Path depth                       *\/$/;"	m	struct:queue_entry	typeref:typename:u64	file:
+describe_op	/tmp/vo67PZl/7.c	/^static u8* describe_op(u8 hnb) {$/;"	f	typeref:typename:u8 *	file:
+destroy_extras	/tmp/vo67PZl/7.c	/^static void destroy_extras(void) {$/;"	f	typeref:typename:void	file:
+destroy_queue	/tmp/vo67PZl/7.c	/^EXP_ST void destroy_queue(void) {$/;"	f	typeref:typename:EXP_ST void
+detect_file_args	/tmp/vo67PZl/7.c	/^EXP_ST void detect_file_args(char** argv) {$/;"	f	typeref:typename:EXP_ST void
+dev_null_fd	/tmp/vo67PZl/7.c	/^           dev_null_fd = -1,          \/* Persistent fd for \/dev\/null      *\/$/;"	v	typeref:typename:s32	file:
+dev_urandom_fd	/tmp/vo67PZl/7.c	/^           dev_urandom_fd = -1,       \/* Persistent fd for \/dev\/urandom   *\/$/;"	v	typeref:typename:s32	file:
+doc_path	/tmp/vo67PZl/7.c	/^       *doc_path,                  \/* Path to documentation dir        *\/$/;"	v	typeref:typename:EXP_ST u8 ********
+dumb_mode	/tmp/vo67PZl/7.c	/^       dumb_mode,                 \/* Run in non-instrumented mode?    *\/$/;"	v	typeref:typename:EXP_ST u8
+exec_cksum	/tmp/vo67PZl/7.c	/^        exec_cksum;                     \/* Checksum of the execution trace  *\/$/;"	m	struct:queue_entry	typeref:typename:u32	file:
+exec_tmout	/tmp/vo67PZl/7.c	/^EXP_ST u32 exec_tmout = EXEC_TIMEOUT; \/* Configurable exec timeout (ms)   *\/$/;"	v	typeref:typename:EXP_ST u32
+exec_us	/tmp/vo67PZl/7.c	/^    u64 exec_us,                        \/* Execution time (us)              *\/$/;"	m	struct:queue_entry	typeref:typename:u64	file:
+extra_data	/tmp/vo67PZl/7.c	/^struct extra_data {$/;"	s	file:
+extras	/tmp/vo67PZl/7.c	/^static struct extra_data* extras;     \/* Extra tokens to fuzz with        *\/$/;"	v	typeref:struct:extra_data *	file:
+extras_cnt	/tmp/vo67PZl/7.c	/^static u32 extras_cnt;                \/* Total number of tokens read      *\/$/;"	v	typeref:typename:u32	file:
+fast_cal	/tmp/vo67PZl/7.c	/^       fast_cal;                  \/* Try to calibrate faster?         *\/$/;"	v	typeref:typename:EXP_ST u8
+favored	/tmp/vo67PZl/7.c	/^        favored,                        \/* Currently favored?               *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+find_start_position	/tmp/vo67PZl/7.c	/^static u32 find_start_position(void) {$/;"	f	typeref:typename:u32	file:
+find_timeout	/tmp/vo67PZl/7.c	/^static void find_timeout(void) {$/;"	f	typeref:typename:void	file:
+fix_up_banner	/tmp/vo67PZl/7.c	/^static void fix_up_banner(u8* name) {$/;"	f	typeref:typename:void	file:
+fix_up_sync	/tmp/vo67PZl/7.c	/^static void fix_up_sync(void) {$/;"	f	typeref:typename:void	file:
+fname	/tmp/vo67PZl/7.c	/^    u8* fname;                          \/* File name for the test case      *\/$/;"	m	struct:queue_entry	typeref:typename:u8 *	file:
+force_deterministic	/tmp/vo67PZl/7.c	/^       force_deterministic,       \/* Force deterministic stages?      *\/$/;"	v	typeref:typename:EXP_ST u8
+forksrv_pid	/tmp/vo67PZl/7.c	/^static s32 forksrv_pid,               \/* PID of the fork server           *\/$/;"	v	typeref:typename:s32	file:
+fs_redundant	/tmp/vo67PZl/7.c	/^        fs_redundant;                   \/* Marked as redundant in the fs?   *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+fsrv_ctl_fd	/tmp/vo67PZl/7.c	/^           fsrv_ctl_fd,               \/* Fork server control pipe (write) *\/$/;"	v	typeref:typename:s32	file:
+fsrv_st_fd	/tmp/vo67PZl/7.c	/^           fsrv_st_fd;                \/* Fork server status pipe (read)   *\/$/;"	v	typeref:typename:s32	file:
+fuzz_one	/tmp/vo67PZl/7.c	/^static u8 fuzz_one(char** argv) {$/;"	f	typeref:typename:u8	file:
+get_core_count	/tmp/vo67PZl/7.c	/^static void get_core_count(void) {$/;"	f	typeref:typename:void	file:
+get_cur_time	/tmp/vo67PZl/7.c	/^static u64 get_cur_time(void) {$/;"	f	typeref:typename:u64	file:
+get_cur_time_us	/tmp/vo67PZl/7.c	/^static u64 get_cur_time_us(void) {$/;"	f	typeref:typename:u64	file:
+get_qemu_argv	/tmp/vo67PZl/7.c	/^static char** get_qemu_argv(u8* own_loc, char** argv, int argc) {$/;"	f	typeref:typename:char **	file:
+get_runnable_processes	/tmp/vo67PZl/7.c	/^static double get_runnable_processes(void) {$/;"	f	typeref:typename:double	file:
+handicap	/tmp/vo67PZl/7.c	/^        handicap,                       \/* Number of queue cycles behind    *\/$/;"	m	struct:queue_entry	typeref:typename:u64	file:
+handle_resize	/tmp/vo67PZl/7.c	/^static void handle_resize(int sig) {$/;"	f	typeref:typename:void	file:
+handle_skipreq	/tmp/vo67PZl/7.c	/^static void handle_skipreq(int sig) {$/;"	f	typeref:typename:void	file:
+handle_stop_sig	/tmp/vo67PZl/7.c	/^static void handle_stop_sig(int sig) {$/;"	f	typeref:typename:void	file:
+handle_timeout	/tmp/vo67PZl/7.c	/^static void handle_timeout(int sig) {$/;"	f	typeref:typename:void	file:
+hang_tmout	/tmp/vo67PZl/7.c	/^static u32 hang_tmout = EXEC_TIMEOUT; \/* Timeout used for hang det (ms)   *\/$/;"	v	typeref:typename:u32	file:
+has_new_bits	/tmp/vo67PZl/7.c	/^static inline u8 has_new_bits(u8* virgin_map) {$/;"	f	typeref:typename:u8	file:
+has_new_cov	/tmp/vo67PZl/7.c	/^        has_new_cov,                    \/* Triggers new coverage?           *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+havoc_div	/tmp/vo67PZl/7.c	/^       havoc_div = 1;             \/* Cycle count divisor for havoc    *\/$/;"	v	typeref:typename:EXP_ST u32
+hit_cnt	/tmp/vo67PZl/7.c	/^    u32 hit_cnt;                        \/* Use count in the corpus          *\/$/;"	m	struct:extra_data	typeref:typename:u32	file:
+in_bitmap	/tmp/vo67PZl/7.c	/^       *in_bitmap,                 \/* Input bitmap                     *\/$/;"	v	typeref:typename:EXP_ST u8 *******
+in_dir	/tmp/vo67PZl/7.c	/^EXP_ST u8 *in_dir,                    \/* Input directory with test cases  *\/$/;"	v	typeref:typename:EXP_ST u8 *
+in_place_resume	/tmp/vo67PZl/7.c	/^       in_place_resume,           \/* Attempt in-place resume?         *\/$/;"	v	typeref:typename:EXP_ST u8
+init_count_class16	/tmp/vo67PZl/7.c	/^EXP_ST void init_count_class16(void) {$/;"	f	typeref:typename:EXP_ST void
+init_forkserver	/tmp/vo67PZl/7.c	/^EXP_ST void init_forkserver(char** argv) {$/;"	f	typeref:typename:EXP_ST void
+interesting_16	/tmp/vo67PZl/7.c	/^static s16 interesting_16[] = { INTERESTING_8, INTERESTING_16 };$/;"	v	typeref:typename:s16[]	file:
+interesting_32	/tmp/vo67PZl/7.c	/^static s32 interesting_32[] = { INTERESTING_8, INTERESTING_16, INTERESTING_32 };$/;"	v	typeref:typename:s32[]	file:
+interesting_8	/tmp/vo67PZl/7.c	/^static s8  interesting_8[]  = { INTERESTING_8 };$/;"	v	typeref:typename:s8[]	file:
+kill_signal	/tmp/vo67PZl/7.c	/^       kill_signal,               \/* Signal that killed the child     *\/$/;"	v	typeref:typename:EXP_ST u8
+last_crash_execs	/tmp/vo67PZl/7.c	/^       last_crash_execs,          \/* Exec counter at last crash       *\/$/;"	v	typeref:typename:EXP_ST u64
+last_crash_time	/tmp/vo67PZl/7.c	/^       last_crash_time,           \/* Time for most recent crash (ms)  *\/$/;"	v	typeref:typename:EXP_ST u64
+last_hang_time	/tmp/vo67PZl/7.c	/^       last_hang_time,            \/* Time for most recent hang (ms)   *\/$/;"	v	typeref:typename:EXP_ST u64
+last_path_time	/tmp/vo67PZl/7.c	/^       last_path_time,            \/* Time for most recent path (ms)   *\/$/;"	v	typeref:typename:EXP_ST u64
+len	/tmp/vo67PZl/7.c	/^    u32 len;                            \/* Dictionary token length          *\/$/;"	m	struct:extra_data	typeref:typename:u32	file:
+len	/tmp/vo67PZl/7.c	/^    u32 len;                            \/* Input length                     *\/$/;"	m	struct:queue_entry	typeref:typename:u32	file:
+link_or_copy	/tmp/vo67PZl/7.c	/^static void link_or_copy(u8* old_path, u8* new_path) {$/;"	f	typeref:typename:void	file:
+load_auto	/tmp/vo67PZl/7.c	/^static void load_auto(void) {$/;"	f	typeref:typename:void	file:
+load_extras	/tmp/vo67PZl/7.c	/^static void load_extras(u8* dir) {$/;"	f	typeref:typename:void	file:
+load_extras_file	/tmp/vo67PZl/7.c	/^static void load_extras_file(u8* fname, u32* min_len, u32* max_len,$/;"	f	typeref:typename:void	file:
+locate_diffs	/tmp/vo67PZl/7.c	/^static void locate_diffs(u8* ptr1, u8* ptr2, u32 len, s32* first, s32* last) {$/;"	f	typeref:typename:void	file:
+main	/tmp/vo67PZl/7.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+mark_as_det_done	/tmp/vo67PZl/7.c	/^static void mark_as_det_done(struct queue_entry* q) {$/;"	f	typeref:typename:void	file:
+mark_as_redundant	/tmp/vo67PZl/7.c	/^static void mark_as_redundant(struct queue_entry* q, u8 state) {$/;"	f	typeref:typename:void	file:
+mark_as_variable	/tmp/vo67PZl/7.c	/^static void mark_as_variable(struct queue_entry* q) {$/;"	f	typeref:typename:void	file:
+master_id	/tmp/vo67PZl/7.c	/^static u32 master_id, master_max;     \/* Master instance job splitting    *\/$/;"	v	typeref:typename:u32	file:
+master_max	/tmp/vo67PZl/7.c	/^static u32 master_id, master_max;     \/* Master instance job splitting    *\/$/;"	v	typeref:typename:u32	file:
+max_depth	/tmp/vo67PZl/7.c	/^       max_depth,                 \/* Max path depth                   *\/$/;"	v	typeref:typename:EXP_ST u32
+maybe_add_auto	/tmp/vo67PZl/7.c	/^static void maybe_add_auto(u8* mem, u32 len) {$/;"	f	typeref:typename:void	file:
+maybe_delete_out_dir	/tmp/vo67PZl/7.c	/^static void maybe_delete_out_dir(void) {$/;"	f	typeref:typename:void	file:
+maybe_update_plot_file	/tmp/vo67PZl/7.c	/^static void maybe_update_plot_file(double bitmap_cvg, double eps) {$/;"	f	typeref:typename:void	file:
+mem_limit	/tmp/vo67PZl/7.c	/^EXP_ST u64 mem_limit  = MEM_LIMIT;    \/* Memory cap for child (MB)        *\/$/;"	v	typeref:typename:EXP_ST u64
+memcmp_nocase	/tmp/vo67PZl/7.c	/^static inline u8 memcmp_nocase(u8* m1, u8* m2, u32 len) {$/;"	f	typeref:typename:u8	file:
+minimize_bits	/tmp/vo67PZl/7.c	/^static void minimize_bits(u8* dst, u8* src) {$/;"	f	typeref:typename:void	file:
+mufname	/tmp/vo67PZl/7.c	/^static u8* mufname="";\/*mutated field of cur_certificate*\/$/;"	v	typeref:typename:u8 *	file:
+next	/tmp/vo67PZl/7.c	/^    struct queue_entry *next,           \/* Next element, if any             *\/$/;"	m	struct:queue_entry	typeref:struct:queue_entry *	file:
+next_100	/tmp/vo67PZl/7.c	/^                       *next_100;       \/* 100 elements ahead               *\/$/;"	m	struct:queue_entry	typeref:struct:queue_entry **	file:
+next_p2	/tmp/vo67PZl/7.c	/^static u32 next_p2(u32 val) {$/;"	f	typeref:typename:u32	file:
+no_arith	/tmp/vo67PZl/7.c	/^       no_arith,                  \/* Skip most arithmetic ops         *\/$/;"	v	typeref:typename:EXP_ST u8
+no_cpu_meter_red	/tmp/vo67PZl/7.c	/^       no_cpu_meter_red,          \/* Feng shui on the status screen   *\/$/;"	v	typeref:typename:EXP_ST u8
+no_forkserver	/tmp/vo67PZl/7.c	/^       no_forkserver,             \/* Disable forkserver?              *\/$/;"	v	typeref:typename:EXP_ST u8
+not_on_tty	/tmp/vo67PZl/7.c	/^       not_on_tty,                \/* stdout is not a tty              *\/$/;"	v	typeref:typename:EXP_ST u8
+nuke_resume_dir	/tmp/vo67PZl/7.c	/^static void nuke_resume_dir(void) {$/;"	f	typeref:typename:void	file:
+orig_cmdline	/tmp/vo67PZl/7.c	/^       *orig_cmdline;              \/* Original command line            *\/$/;"	v	typeref:typename:EXP_ST u8 **********
+out_buf2pem	/tmp/vo67PZl/7.c	/^int out_buf2pem(X509 *x509,unsigned char **out_buf,int *len1,unsigned char **out_buf_copy,unsign/;"	f	typeref:typename:int
+out_dir	/tmp/vo67PZl/7.c	/^       *out_dir,                   \/* Working & output directory       *\/$/;"	v	typeref:typename:EXP_ST u8 ***
+out_dir_fd	/tmp/vo67PZl/7.c	/^           out_dir_fd = -1;           \/* FD of the lock file              *\/$/;"	v	typeref:typename:s32	file:
+out_fd	/tmp/vo67PZl/7.c	/^static s32 out_fd,                    \/* Persistent fd for out_file       *\/$/;"	v	typeref:typename:s32	file:
+out_file	/tmp/vo67PZl/7.c	/^       *out_file,                  \/* File to fuzz, if any             *\/$/;"	v	typeref:typename:EXP_ST u8 **
+passed_det	/tmp/vo67PZl/7.c	/^        passed_det,                     \/* Deterministic stages passed?     *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+pending_favored	/tmp/vo67PZl/7.c	/^       pending_favored,           \/* Pending favored paths            *\/$/;"	v	typeref:typename:EXP_ST u32
+pending_not_fuzzed	/tmp/vo67PZl/7.c	/^       pending_not_fuzzed,        \/* Queued but not done yet          *\/$/;"	v	typeref:typename:EXP_ST u32
+perform_dry_run	/tmp/vo67PZl/7.c	/^static void perform_dry_run(char** argv) {$/;"	f	typeref:typename:void	file:
+persistent_mode	/tmp/vo67PZl/7.c	/^       persistent_mode,           \/* Running in persistent mode?      *\/$/;"	v	typeref:typename:EXP_ST u8
+pivot_inputs	/tmp/vo67PZl/7.c	/^static void pivot_inputs(void) {$/;"	f	typeref:typename:void	file:
+plot_file	/tmp/vo67PZl/7.c	/^static FILE* plot_file;               \/* Gnuplot output file              *\/$/;"	v	typeref:typename:FILE *	file:
+post_handler	/tmp/vo67PZl/7.c	/^static u8* (*post_handler)(u8* buf, u32* len);$/;"	v	typeref:typename:u8 * (*)(u8 * buf,u32 * len)	file:
+q_prev100	/tmp/vo67PZl/7.c	/^                          *q_prev100; \/* Previous 100 marker              *\/$/;"	v	typeref:struct:queue_entry ****	file:
+qemu_mode	/tmp/vo67PZl/7.c	/^       qemu_mode,                 \/* Running in QEMU mode?            *\/$/;"	v	typeref:typename:EXP_ST u8
+queue	/tmp/vo67PZl/7.c	/^static struct queue_entry *queue,     \/* Fuzzing queue (linked list)      *\/$/;"	v	typeref:struct:queue_entry *	file:
+queue_cur	/tmp/vo67PZl/7.c	/^                          *queue_cur, \/* Current offset within the queue  *\/$/;"	v	typeref:struct:queue_entry **	file:
+queue_cycle	/tmp/vo67PZl/7.c	/^       queue_cycle,               \/* Queue round counter              *\/$/;"	v	typeref:typename:EXP_ST u64
+queue_entry	/tmp/vo67PZl/7.c	/^struct queue_entry {$/;"	s	file:
+queue_top	/tmp/vo67PZl/7.c	/^                          *queue_top, \/* Top of the list                  *\/$/;"	v	typeref:struct:queue_entry ***	file:
+queued_at_start	/tmp/vo67PZl/7.c	/^       queued_at_start,           \/* Total number of initial inputs   *\/$/;"	v	typeref:typename:EXP_ST u32
+queued_discovered	/tmp/vo67PZl/7.c	/^       queued_discovered,         \/* Items discovered during this run *\/$/;"	v	typeref:typename:EXP_ST u32
+queued_favored	/tmp/vo67PZl/7.c	/^       queued_favored,            \/* Paths deemed favorable           *\/$/;"	v	typeref:typename:EXP_ST u32
+queued_imported	/tmp/vo67PZl/7.c	/^       queued_imported,           \/* Items imported via -S            *\/$/;"	v	typeref:typename:EXP_ST u32
+queued_paths	/tmp/vo67PZl/7.c	/^EXP_ST u32 queued_paths,              \/* Total number of queued testcases *\/$/;"	v	typeref:typename:EXP_ST u32
+queued_variable	/tmp/vo67PZl/7.c	/^       queued_variable,           \/* Testcases with variable behavior *\/$/;"	v	typeref:typename:EXP_ST u32
+queued_with_cov	/tmp/vo67PZl/7.c	/^       queued_with_cov,           \/* Paths with new coverage bytes    *\/$/;"	v	typeref:typename:EXP_ST u32
+rand_cnt	/tmp/vo67PZl/7.c	/^static u32 rand_cnt;                  \/* Random number counter            *\/$/;"	v	typeref:typename:u32	file:
+read_bitmap	/tmp/vo67PZl/7.c	/^EXP_ST void read_bitmap(u8* fname) {$/;"	f	typeref:typename:EXP_ST void
+read_testcases	/tmp/vo67PZl/7.c	/^static void read_testcases(void) {$/;"	f	typeref:typename:void	file:
+remove_shm	/tmp/vo67PZl/7.c	/^static void remove_shm(void) {$/;"	f	typeref:typename:void	file:
+resuming_fuzz	/tmp/vo67PZl/7.c	/^       resuming_fuzz,             \/* Resuming an older fuzzing job?   *\/$/;"	v	typeref:typename:EXP_ST u8
+run_number	/tmp/vo67PZl/7.c	/^int run_number=0;$/;"	v	typeref:typename:int
+run_over10m	/tmp/vo67PZl/7.c	/^       run_over10m,               \/* Run time over 10 minutes?        *\/$/;"	v	typeref:typename:EXP_ST u8
+run_target	/tmp/vo67PZl/7.c	/^static u8 run_target(char** argv, u32 timeout) {$/;"	f	typeref:typename:u8	file:
+save_auto	/tmp/vo67PZl/7.c	/^static void save_auto(void) {$/;"	f	typeref:typename:void	file:
+save_cmdline	/tmp/vo67PZl/7.c	/^static void save_cmdline(u32 argc, char** argv) {$/;"	f	typeref:typename:void	file:
+save_if_interesting	/tmp/vo67PZl/7.c	/^static u8 save_if_interesting(char** argv, void* mem, u32 len, u8 fault) {$/;"	f	typeref:typename:u8	file:
+score_changed	/tmp/vo67PZl/7.c	/^       score_changed,             \/* Scoring for favorites changed?   *\/$/;"	v	typeref:typename:EXP_ST u8
+setup_dirs_fds	/tmp/vo67PZl/7.c	/^EXP_ST void setup_dirs_fds(void) {$/;"	f	typeref:typename:EXP_ST void
+setup_post	/tmp/vo67PZl/7.c	/^static void setup_post(void) {$/;"	f	typeref:typename:void	file:
+setup_shm	/tmp/vo67PZl/7.c	/^EXP_ST void setup_shm(void) {$/;"	f	typeref:typename:EXP_ST void
+setup_signal_handlers	/tmp/vo67PZl/7.c	/^EXP_ST void setup_signal_handlers(void) {$/;"	f	typeref:typename:EXP_ST void
+setup_stdio_file	/tmp/vo67PZl/7.c	/^EXP_ST void setup_stdio_file(void) {$/;"	f	typeref:typename:EXP_ST void
+shm_id	/tmp/vo67PZl/7.c	/^static s32 shm_id;                    \/* ID of the SHM region             *\/$/;"	v	typeref:typename:s32	file:
+show_init_stats	/tmp/vo67PZl/7.c	/^static void show_init_stats(void) {$/;"	f	typeref:typename:void	file:
+show_stats	/tmp/vo67PZl/7.c	/^static void show_stats(void) {$/;"	f	typeref:typename:void	file:
+shuffle_ptrs	/tmp/vo67PZl/7.c	/^static void shuffle_ptrs(void** ptrs, u32 cnt) {$/;"	f	typeref:typename:void	file:
+shuffle_queue	/tmp/vo67PZl/7.c	/^       shuffle_queue,             \/* Shuffle input queue?             *\/$/;"	v	typeref:typename:EXP_ST u8
+simplify_lookup	/tmp/vo67PZl/7.c	/^static const u8 simplify_lookup[256] = {$/;"	v	typeref:typename:const u8[256]	file:
+simplify_trace	/tmp/vo67PZl/7.c	/^static void simplify_trace(u32* mem) {$/;"	f	typeref:typename:void	file:
+simplify_trace	/tmp/vo67PZl/7.c	/^static void simplify_trace(u64* mem) {$/;"	f	typeref:typename:void	file:
+skip_deterministic	/tmp/vo67PZl/7.c	/^EXP_ST u8  skip_deterministic,        \/* Skip deterministic stages?       *\/$/;"	v	typeref:typename:EXP_ST u8
+skip_requested	/tmp/vo67PZl/7.c	/^       skip_requested,            \/* Skip request, via SIGUSR1        *\/$/;"	v	typeref:typename:EXP_ST u8
+splicing_with	/tmp/vo67PZl/7.c	/^static s32 splicing_with = -1;        \/* Splicing with which test case?   *\/$/;"	v	typeref:typename:s32	file:
+stage_cur	/tmp/vo67PZl/7.c	/^static s32 stage_cur, stage_max;      \/* Stage progression                *\/$/;"	v	typeref:typename:s32	file:
+stage_cur_byte	/tmp/vo67PZl/7.c	/^static s32 stage_cur_byte,            \/* Byte offset of current stage op  *\/$/;"	v	typeref:typename:s32	file:
+stage_cur_val	/tmp/vo67PZl/7.c	/^           stage_cur_val;             \/* Value used for stage op          *\/$/;"	v	typeref:typename:s32	file:
+stage_cycles	/tmp/vo67PZl/7.c	/^           stage_cycles[32];          \/* Execs per fuzz stage             *\/$/;"	v	typeref:typename:u64[32][32]	file:
+stage_finds	/tmp/vo67PZl/7.c	/^static u64 stage_finds[32],           \/* Patterns found per fuzz stage    *\/$/;"	v	typeref:typename:u64[32]	file:
+stage_max	/tmp/vo67PZl/7.c	/^static s32 stage_cur, stage_max;      \/* Stage progression                *\/$/;"	v	typeref:typename:s32	file:
+stage_name	/tmp/vo67PZl/7.c	/^static u8 *stage_name = "init",       \/* Name of the current fuzz stage   *\/$/;"	v	typeref:typename:u8 *	file:
+stage_short	/tmp/vo67PZl/7.c	/^          *stage_short,               \/* Short stage name                 *\/$/;"	v	typeref:typename:u8 **	file:
+stage_val_type	/tmp/vo67PZl/7.c	/^static u8  stage_val_type;            \/* Value type (STAGE_VAL_*)         *\/$/;"	v	typeref:typename:u8	file:
+start_time	/tmp/vo67PZl/7.c	/^       start_time,                \/* Unix start time (ms)             *\/$/;"	v	typeref:typename:EXP_ST u64
+stats_update_freq	/tmp/vo67PZl/7.c	/^static u32 stats_update_freq = 1;     \/* Stats update frequency (execs)   *\/$/;"	v	typeref:typename:u32	file:
+stop_soon	/tmp/vo67PZl/7.c	/^static volatile u8 stop_soon,         \/* Ctrl-C pressed?                  *\/$/;"	v	typeref:typename:volatile u8	file:
+subseq_tmouts	/tmp/vo67PZl/7.c	/^static u32 subseq_tmouts;             \/* Number of timeouts in a row      *\/$/;"	v	typeref:typename:u32	file:
+sync_dir	/tmp/vo67PZl/7.c	/^       *sync_dir,                  \/* Synchronization directory        *\/$/;"	v	typeref:typename:EXP_ST u8 ****
+sync_fuzzers	/tmp/vo67PZl/7.c	/^static void sync_fuzzers(char** argv) {$/;"	f	typeref:typename:void	file:
+sync_id	/tmp/vo67PZl/7.c	/^       *sync_id,                   \/* Fuzzer ID                        *\/$/;"	v	typeref:typename:EXP_ST u8 *****
+syncing_case	/tmp/vo67PZl/7.c	/^static u32 syncing_case;              \/* Syncing with case #...           *\/$/;"	v	typeref:typename:u32	file:
+syncing_party	/tmp/vo67PZl/7.c	/^          *syncing_party;             \/* Currently syncing with...        *\/$/;"	v	typeref:typename:u8 ***	file:
+target_path	/tmp/vo67PZl/7.c	/^       *target_path,               \/* Path to target binary            *\/$/;"	v	typeref:typename:EXP_ST u8 *********
+tc_ref	/tmp/vo67PZl/7.c	/^    u32 tc_ref;                         \/* Trace bytes ref count            *\/$/;"	m	struct:queue_entry	typeref:typename:u32	file:
+term_too_small	/tmp/vo67PZl/7.c	/^       term_too_small,            \/* terminal dimensions too small    *\/$/;"	v	typeref:typename:EXP_ST u8
+timeout_given	/tmp/vo67PZl/7.c	/^       timeout_given,             \/* Specific timeout given?          *\/$/;"	v	typeref:typename:EXP_ST u8
+top_rated	/tmp/vo67PZl/7.c	/^top_rated[MAP_SIZE];                \/* Top entries for bitmap bytes     *\/$/;"	v	typeref:struct:queue_entry * []	file:
+total_bitmap_entries	/tmp/vo67PZl/7.c	/^           total_bitmap_entries;      \/* Number of bitmaps counted        *\/$/;"	v	typeref:typename:u64	file:
+total_bitmap_size	/tmp/vo67PZl/7.c	/^static u64 total_bitmap_size,         \/* Total bit count for all bitmaps  *\/$/;"	v	typeref:typename:u64	file:
+total_cal_cycles	/tmp/vo67PZl/7.c	/^           total_cal_cycles;          \/* Total calibration cycles         *\/$/;"	v	typeref:typename:u64	file:
+total_cal_us	/tmp/vo67PZl/7.c	/^static u64 total_cal_us,              \/* Total calibration time (us)      *\/$/;"	v	typeref:typename:u64	file:
+total_crashes	/tmp/vo67PZl/7.c	/^EXP_ST u64 total_crashes,             \/* Total number of crashes          *\/$/;"	v	typeref:typename:EXP_ST u64
+total_execs	/tmp/vo67PZl/7.c	/^       total_execs,               \/* Total execve() calls             *\/$/;"	v	typeref:typename:EXP_ST u64
+total_tmouts	/tmp/vo67PZl/7.c	/^       total_tmouts,              \/* Total number of timeouts         *\/$/;"	v	typeref:typename:EXP_ST u64
+trace_bits	/tmp/vo67PZl/7.c	/^EXP_ST u8* trace_bits;                \/* SHM with instrumentation bitmap  *\/$/;"	v	typeref:typename:EXP_ST u8 *
+trace_mini	/tmp/vo67PZl/7.c	/^    u8* trace_mini;                     \/* Trace bytes, if kept             *\/$/;"	m	struct:queue_entry	typeref:typename:u8 *	file:
+trim_case	/tmp/vo67PZl/7.c	/^static u8 trim_case(char** argv, struct queue_entry* q, u8* in_buf) {$/;"	f	typeref:typename:u8	file:
+trim_done	/tmp/vo67PZl/7.c	/^        trim_done,                      \/* Trimmed?                         *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+trim_execs	/tmp/vo67PZl/7.c	/^       trim_execs,                \/* Execs done to trim input files   *\/$/;"	v	typeref:typename:EXP_ST u64
+unique_crashes	/tmp/vo67PZl/7.c	/^       unique_crashes,            \/* Crashes with unique signatures   *\/$/;"	v	typeref:typename:EXP_ST u64
+unique_hangs	/tmp/vo67PZl/7.c	/^       unique_hangs,              \/* Hangs with unique signatures     *\/$/;"	v	typeref:typename:EXP_ST u64
+unique_tmouts	/tmp/vo67PZl/7.c	/^       unique_tmouts,             \/* Timeouts with unique signatures  *\/$/;"	v	typeref:typename:EXP_ST u64
+update_bitmap_score	/tmp/vo67PZl/7.c	/^static void update_bitmap_score(struct queue_entry* q) {$/;"	f	typeref:typename:void	file:
+usage	/tmp/vo67PZl/7.c	/^static void usage(u8* argv0) {$/;"	f	typeref:typename:void	file:
+use_banner	/tmp/vo67PZl/7.c	/^       *use_banner,                \/* Display banner                   *\/$/;"	v	typeref:typename:EXP_ST u8 ******
+use_splicing	/tmp/vo67PZl/7.c	/^       use_splicing,              \/* Recombine input files?           *\/$/;"	v	typeref:typename:EXP_ST u8
+useless_at_start	/tmp/vo67PZl/7.c	/^       useless_at_start,          \/* Number of useless starting paths *\/$/;"	v	typeref:typename:EXP_ST u32
+uses_asan	/tmp/vo67PZl/7.c	/^       uses_asan,                 \/* Target uses ASAN?                *\/$/;"	v	typeref:typename:EXP_ST u8
+var_behavior	/tmp/vo67PZl/7.c	/^        var_behavior,                   \/* Variable behavior?               *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+var_byte_count	/tmp/vo67PZl/7.c	/^       var_byte_count,            \/* Bitmap bytes with var behavior   *\/$/;"	v	typeref:typename:EXP_ST u32
+var_bytes	/tmp/vo67PZl/7.c	/^static u8  var_bytes[MAP_SIZE];       \/* Bytes that appear to be variable *\/$/;"	v	typeref:typename:u8[]	file:
+virgin_bits	/tmp/vo67PZl/7.c	/^EXP_ST u8  virgin_bits[MAP_SIZE],     \/* Regions yet untouched by fuzzing *\/$/;"	v	typeref:typename:EXP_ST u8[]
+virgin_crash	/tmp/vo67PZl/7.c	/^       virgin_crash[MAP_SIZE];    \/* Bits we haven't seen in crashes  *\/$/;"	v	typeref:typename:EXP_ST u8[][][]
+virgin_tmout	/tmp/vo67PZl/7.c	/^       virgin_tmout[MAP_SIZE],    \/* Bits we haven't seen in tmouts   *\/$/;"	v	typeref:typename:EXP_ST u8[][]
+was_fuzzed	/tmp/vo67PZl/7.c	/^        was_fuzzed,                     \/* Had any fuzzing done yet?        *\/$/;"	m	struct:queue_entry	typeref:typename:u8	file:
+write_bitmap	/tmp/vo67PZl/7.c	/^EXP_ST void write_bitmap(void) {$/;"	f	typeref:typename:EXP_ST void
+write_crash_readme	/tmp/vo67PZl/7.c	/^static void write_crash_readme(void) {$/;"	f	typeref:typename:void	file:
+write_stats_file	/tmp/vo67PZl/7.c	/^static void write_stats_file(double bitmap_cvg, double stability, double eps) {$/;"	f	typeref:typename:void	file:
+write_to_testcase	/tmp/vo67PZl/7.c	/^static void write_to_testcase(void* mem, u32 len) {$/;"	f	typeref:typename:void	file:
+write_with_gap	/tmp/vo67PZl/7.c	/^static void write_with_gap(void* mem, u32 len, u32 skip_at, u32 skip_len) {$/;"	f	typeref:typename:void	file:

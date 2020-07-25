@@ -1,0 +1,13 @@
+--- a/crypto/x509/a_verify.c	2020-03-26 14:50:06.396619460 +0800
++++ b/crypto/x509/a_verify.c	2020-03-26 14:52:33.668233711 +0800
+@@ -101,8 +101,10 @@
+ 
+     if (!EVP_DigestVerify(&ctx, signature->data, (size_t)signature->length,
+                           buf_in, inl)) {
++#ifndef FUZZER_DISABLE_SIGNCHECK
+         OPENSSL_PUT_ERROR(X509, ERR_R_EVP_LIB);
+         goto err;
++#endif
+     }
+ 
+     ret = 1;

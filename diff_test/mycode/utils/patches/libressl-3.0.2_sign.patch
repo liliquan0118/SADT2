@@ -1,0 +1,14 @@
+--- a/crypto/asn1/a_verify.c	2020-03-18 02:10:35.221088243 +0800
++++ b/crypto/asn1/a_verify.c	2020-03-18 02:13:07.055254567 +0800
+@@ -152,9 +152,11 @@
+ 
+ 	if (EVP_DigestVerifyFinal(&ctx, signature->data,
+ 	    (size_t)signature->length) <= 0) {
++#ifndef FUZZER_DISABLE_SIGNCHECK
+ 		ASN1error(ERR_R_EVP_LIB);
+ 		ret = 0;
+ 		goto err;
++#endif
+ 	}
+ 	/* we don't need to zero the 'ctx' because we just checked
+ 	 * public information */

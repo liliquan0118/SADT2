@@ -1,0 +1,13 @@
+--- a/crypto/asn1/a_verify.c	2020-03-18 01:20:18.579525639 +0800
++++ b/crypto/asn1/a_verify.c	2020-03-18 01:26:30.235886534 +0800
+@@ -167,8 +167,10 @@
+     ret = EVP_DigestVerify(ctx, signature->data, (size_t)signature->length,
+                            buf_in, inl);
+     if (ret <= 0) {
++#ifndef FUZZER_DISABLE_SIGNCHECK
+         ASN1err(ASN1_F_ASN1_ITEM_VERIFY, ERR_R_EVP_LIB);
+         goto err;
++#endif
+     }
+     ret = 1;
+  err:

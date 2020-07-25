@@ -1,0 +1,20 @@
+--- a/nss/build.sh	2020-07-24 16:43:51.029757954 +0800
++++ b/nss/build.sh	2020-07-24 16:43:26.283001589 +0800
+@@ -90,7 +90,7 @@ while [ $# -gt 0 ]; do
+             IFS=$'\r\n' GLOBIGNORE='*' command eval  'previous_args=($(<"$argsfile"))'
+             exec /usr/bin/env bash -c "$(Q "$0")"' "$@"' "$0" "${previous_args[@]}"
+             ;;
+-        -c) clean=1 ;;
++        -c) clean=1 ;gyp_params+=(-DFUZZER_DISABLE_SIGNCHECK=1);;
+         -cc) clean_only=1 ;;
+         -v) ninja_params+=(-v); verbose=1 ;;
+         -j) ninja_params+=(-j "$2"); shift ;;
+@@ -99,7 +99,7 @@ while [ $# -gt 0 ]; do
+         -m32|--m32) target_arch=ia32; echo 'Warning: use -t instead of -m32' 1>&2 ;;
+         -t|--target) target_arch="$2"; shift ;;
+         --target=*) target_arch="${1#*=}" ;;
+-        --clang) export CC=clang; export CCC=clang++; export CXX=clang++; msvc=0 ;;
++        --clang) export CC=$cwd/../../../../../../../my_afl/afl-clang; export CCC=$cwd/../../../../../../../my_afl/afl-clang++; export CXX=$cwd/../../../../../../../my_afl/afl-clang++; msvc=0; gyp_params+=(-DFUZZER_DISABLE_SIGNCHECK);;
+         --gcc) export CC=gcc; export CCC=g++; export CXX=g++; msvc=0 ;;
+         --msvc) msvc=1 ;;
+         --scan-build) enable_scanbuild  ;;
