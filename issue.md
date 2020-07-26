@@ -1,6 +1,8 @@
 1.https://github.com/openssl/openssl/issues/10599
+
 openssl 1.1.1-pre8 accepts a certificate with version 1 and extension fields
 2.https://bugzilla.mozilla.org/show_bug.cgi?id=1603034
+
 NSS accepts a version-1 certificate with extension fields
 3.https://github.com/wolfSSL/wolfssl/issues/2680
 wolfssl4.2.0 accepts a certificate whose issuer not matching the subject of CA certificate
